@@ -1,11 +1,10 @@
 body {
-	overflow-x: hidden;
 	padding-top: 56px;
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 }
 
 #jumboHome {
-	background: url('images/IMG_0465.jpeg') no-repeat center;
+	background: url('images/adrien-olichon-X8o-P23flgI-unsplash.jpg') no-repeat center;
 	color: white;
 }
