@@ -4,25 +4,24 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+    <title>J.C. Dorr</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- My CSS -->
-    <link rel="stylesheet" href="/css/style.css">
-    <title>J.C. Dorr</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/fixed.css">
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#navbarResponsive">
     <!-- Home -->
-    <div id="home">
+    <div id="home" class="offset">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">JCD3</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#menu">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="index.html">JCD3</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="menu">
+        <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
               <a class="nav-link" href="#home">Home</a>
@@ -38,29 +37,22 @@
             </li>
           </ul>
         </div>
-      </div>
     </nav>
 
-    <!-- landing page -->
-    <div class="landing">
-      <div class="home-wrap">
-        <div class="home-inner">
-        </div>
+    <div class="jumbotron jumbotron-fluid" id="jumboHome">
+      <div class="container-fluid text-center">
+        <h1 class="display-4">J.C. Dorr</h1>
+        <h3 class="lead">Full-Stack Software Engineer</h3>
+        <a class="btn btn-outline-light btn-lg" href="#about">Take A Look</a>
       </div>
     </div>
-    <!-- landing page caption -->
-    <div class="caption center-block text-center">
-      <h2>J.C. Dorr</h2>
-      <h4>Full-Stack Software Engineer</h4>
-      <a class="btn btn-outline-light" href="#about">Take A Look</a>
-    </div>
 
-    </div> <!-- end home --!>
+    </div> <!-- end home -->
 
     <!-- About -->
-    <div id="about">
+    <div id="about" class="offset">
 
-    <div class="jumbotron">
+    <div class="jumbotron" id="jumboAbout">
       <h3 class="heading">About</h3>
       <div class="row">
         <div class="col-md-6 text-center">
@@ -72,14 +64,56 @@
         </div>
       </div>
     </div>
-  </div> <!-- end about --!>
+  </div> <!-- end about -->
 
     <!-- Projects -->
-  
-    <!-- About -->
+    <div id="projects" class="offset">
+      <div class="container-fluid padding">
+
+        <h3 class="heading">Projects</h3>
+
+        <div class="row no-padding">
+
+          <div class="col-md-6">
+            <img class="projects" src="images/.png" alt="project 1">
+          </div>
+          <div class="col-md-6">
+            <img class="projects" src="images/.png" alt="project 2">
+          </div>
+          <div class="col-md-6">
+            <img class="projects" src="images/.png" alt="project 3">
+          </div>
+          <div class="col-md-6">
+            <img class="projects" src="images/.png" alt="project 4">
+          </div>
+
+        </div> <!-- end row -->
+      </div> <!-- end container -->
+    </div> <!-- end projects -->
 
     <!-- Contact  -->
-
+    <div id="contact" class="offset">
+      <form>
+        <div class="form-row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Last name">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Email">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Message">
+          </div>
+        </div>
+      </form>
+    </div>
     <!-- Footer -->
 
 
