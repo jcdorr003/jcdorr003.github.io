@@ -1,39 +1,37 @@
 body {
-	padding-top: 56px;
-	height: 100%;
-	width: 100%;
-}
-
-#jumboHome {
-	background: url('images/adrien-olichon-X8o-P23flgI-unsplash.jpg') no-repeat center;
-	color: white;
-}
-
-/* project cards */
-/* .row {
-  display:flex;
-  flex-wrap: wrap;
-  border:1px solid;
-} */
-
-.card {
-     display: flex;
-    flex-direction: column;
-    justify-content: center;
-    height: 100%;
-  margin:0 !important;
 
 }
 
-/* .card .card-title {
-  text-align:center;
-} */
-
-.card .card-image {
-/*     border:3px solid green; */
-
+nav {
+  border: 1px solid black;
+  display: flex;
 }
-.card .card-image img {
-  height:180px;
-  object-fit:contain;
+
+header {
+  border: 1px solid black;
+  display: flex;
+  height: 100vh;
+}
+
+.about {
+  border: 1px solid black;
+  display: flex;
+  height: 100vh;
+}
+
+.projects {
+  border: 1px solid black;
+  display: grid;
+  height: 100vh;
+}
+
+.contact {
+  border: 1px solid black;
+  display: flex;
+  height: 100vh;
+}
+
+footer {
+  border: 1px solid black;
+  display: flex;
 }
