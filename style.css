@@ -1,9 +1,21 @@
-/* Nav */
+body {
+  margin: 0;
+}
 
+
+/* Nav */
 nav {
-  border: 1px solid black;
+  background-color: rgba(128, 128, 128, 0.5);
+  top: 0;
+  transition: all 0.5s;
   display: flex;
   justify-content: space-between;
+  width: 100%;
+}
+
+.sticky-nav nav {
+  position: fixed;
+  box-shadow: 0 5px rgba(0, 0, 0, 0.1);
 }
 /* Home */
 
@@ -49,12 +61,13 @@ header {
 .contact {
   border: 1px solid black;
   display: flex;
-  height: 100vh;
+  height: 90vh;
 }
 
 footer {
   border: 1px solid black;
   display: flex;
+  height: 10vh;
 }
 
 @media screen and (max-width: 600px) {
