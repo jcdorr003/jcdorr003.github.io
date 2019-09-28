@@ -5,28 +5,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <title>J.C. Dorr | Full-Stack Developer</title>
 </head>
 <body>
-  <!-- Home -->
-  <nav>
-    <div>
-      <h4>J.C. Dorr | Software Engineer</h4>
+  <header>
+    <div class="header-container">
+      <div id="brand">
+        <h3>J.C. Dorr | Software Engineer</h3>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#home" class="scroll">Home</a></li>
+          <li><a href="#about" class="scroll">About</a></li>
+          <li><a href="#projects" class="scroll">Projects</a></li>
+          <li><a href="#contact" class="scroll">Contact</a></li>
+        </ul>
+      </nav>
     </div>
-    <div class= "links">
-      <a href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#projects">Projects</a>
-      <a href="#contact">Contact</a>
-    </div>
-  </nav>
-  <header id= "home">
-    <h1>J.C. Dorr | Software Engineer</h1>
   </header>
+  <!-- Home -->
+  <section id= "home">
+    <h1>J.C. Dorr | Software Engineer</h1>
+  </section>
   <!-- End Home -->
   <!-- About -->
-  <section class= "about" id= "about">
+  <section id= "about">
     <div id= "selfie">
       <img src="" alt="Picture of me">
     </div>
@@ -36,7 +41,7 @@
   </section>
   <!-- End About -->
   <!-- Projects -->
-  <section class= "projects" id= "projects">
+  <section id= "projects">
       <div>
         <h4>1</h4>
       </div>
@@ -58,7 +63,7 @@
   </section>
   <!-- End Projects -->
   <!-- Contact -->
-  <section class= "contact" id ="contact">
+  <section id ="contact">
     <div>
       <h3>This is Contact</h3>
     </div>

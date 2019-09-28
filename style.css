@@ -1,34 +1,81 @@
-body {
+* {
   margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
-
-/* Nav */
-nav {
-  background-color: rgba(128, 128, 128, 0.5);
-  top: 0;
-  transition: all 0.5s;
-  display: flex;
-  justify-content: space-between;
-  width: 100%;
-}
-
-.sticky-nav nav {
+/* Header and Nav */
+header {
   position: fixed;
-  box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  background: rgba(38, 50, 56, 0.5);
+  padding: 10px 0;
+  z-index: 1;
+  transition: all ease-in-out 0.5s;
 }
+
+header:after{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+header.fixed-to-top{
+  background: rgba(38, 50, 56, 1);
+}
+
+.header-container {
+  width: 90%;
+  margin: 0 auto;
+  transition: all ease-in-out 0.5s;
+}
+
+.header-container.fixed-to-top {
+  width: 96%;
+}
+
+#brand {
+  color: white;
+  float: left;
+}
+
+nav {
+  float: right;
+  margin-top: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 4px;
+}
+
+nav li a {
+  padding: 10px 0;
+  text-decoration: none;
+  color: white;
+  transition: all ease-in-out 0.5s;
+}
+
+nav li a:hover {
+  color: purple;
+}
+
 /* Home */
 
-header {
+#home {
   border: 1px solid black;
   display: flex;
-  height: 100vh;
   justify-content: center;
   align-items: center;
+  height: 90vh;
 }
 /* About */
 
-.about {
+#about {
   border: 1px solid black;
   display: flex;
   height: 100vh;
@@ -45,7 +92,7 @@ header {
   border: 1px solid black;
 }
 
-.projects {
+#projects {
   border: 1px solid black;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -54,11 +101,11 @@ header {
   height: 100vh;
 }
 
-.projects > div {
+#projects > div {
   border: 1px solid black;
 }
 
-.contact {
+#contact {
   border: 1px solid black;
   display: flex;
   height: 90vh;
@@ -77,26 +124,22 @@ footer {
 /* Home */
 
 /* About */
-.about {
+#about {
   flex-flow: column;  
 }
 /* Projects */
 
-.projects {
+#projects {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   height: auto;
 }
 
-.projects > div {
+#projects > div {
 height: 300px;
 }
 
-.project > div > img {
-  height: auto;
-  width: auto;
-}
 
 /* Contact */
 
