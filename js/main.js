@@ -22,7 +22,7 @@ $(document).ready(function(){
   linkScroll.click(function(e){
       e.preventDefault();
       $('body, html').animate({
-         scrollTop: $(this.hash).offset().top
-      }, 500);
+         scrollTop: $(this.hash).offset().top - 45
+      }, 800);
    });
 });
