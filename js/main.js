@@ -22,16 +22,20 @@ $(document).ready(function(){
   linkScroll.click(function(e){
       e.preventDefault();
       $('body, html').animate({
-         scrollTop: $(this.hash).offset().top - 45
+         scrollTop: $(this.hash).offset().top - 50
       }, 600);
    });
 });
 
-// home button event listener
+// Navbar toggle button 
 
-// document.getElementById("aboutButton").addEventListener("click", () => {
+const classToggle = () => {
+  const navs = document.querySelectorAll('.Navbar__Items')
+  
+  navs.forEach(nav => nav.classList.toggle('Navbar__ToggleShow'));
+}
 
-// });
+document.querySelector('.Navbar__Link-toggle').addEventListener('click', classToggle);
 
 // Google Sheets API 
 // let originalURL = 'https://docs.google.com/spreadsheets/d/15PmioBi2dQEkewpqI7MDkDpvcVF0Trw8vmarAQbwoHk/edit#gid=0'
