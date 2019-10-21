@@ -184,8 +184,7 @@ nav {
   justify-content: space-around;
   margin-top: 30px;
 }
-#summary > a {
-}
+
 
 /* Projects */
 #projects {
@@ -474,6 +473,9 @@ footer {
     margin: 0;
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background: linear-gradient(-45deg, #E08BFF, #85E4FA, #FFF962);
+	  background-size: 400% 400%;
+    animation: gradientBG 15s ease infinite;
     
     /* text-align: center; */
   }
