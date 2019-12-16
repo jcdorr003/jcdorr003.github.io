@@ -1,83 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Mono&display=swap" rel="stylesheet">
-  <script src="https://kit.fontawesome.com/3678b92415.js" crossorigin="anonymous"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-151060685-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Oswald|Roboto+Mono&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/3678b92415.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-151060685-1"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-    gtag('config', 'UA-151060685-1');
-  </script>
+      gtag("config", "UA-151060685-1");
+    </script>
 
-  <title>J.C. Dorr | Full-Stack Developer</title>
-</head>
-<body>
-  <header>
-    <div class="header-container">
-      <div class="brand">
-        <h3>J.C. DORR</h3>
+    <title>J.C. Dorr | Full-Stack Developer</title>
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <div class="brand">
+          <h3>J.C. DORR</h3>
+        </div>
+        <div class="nav-link-toggle">
+          <i class="fas fa-bars fa-2x"></i>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="#home" class="scroll">HOME</a></li>
+            <li><a href="#about" class="scroll">ABOUT</a></li>
+            <li><a href="#projects" class="scroll">PROJECTS</a></li>
+            <li><a href="#contact" class="scroll">CONTACT</a></li>
+          </ul>
+        </nav>
       </div>
-      <div class='nav-link-toggle'>
-        <i class="fas fa-bars fa-2x"></i>
+    </header>
+    <!-- Home -->
+    <section id="home">
+      <div class="welcome-container">
+        <h1>HI, I'M J.C. DORR.</h1>
+        <h1>I'M A FULL-STACK DEVELOPER.</h1>
       </div>
-      <nav>
-        <ul>
-          <li><a href="#home" class="scroll">HOME</a></li>
-          <li><a href="#about" class="scroll">ABOUT</a></li>
-          <li><a href="#projects" class="scroll">PROJECTS</a></li>
-          <li><a href="#contact" class="scroll">CONTACT</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-  <!-- Home -->
-  <section id= "home">
-    <div class='welcome-container'>
-      <h1>HI, I'M J.C. DORR.</h1>
-      <h1>I'M A FULL-STACK DEVELOPER.</h1>
-    </div>
-      <a href='#about' class='scroll'>TAKE A LOOK</a>
-  </section>
-  <!-- End Home -->
-  <!-- About -->
-  <section id= "about">
-    <h1>ABOUT</h1>
-    <div class='about-container'>
-    <img src="./images/IMG_0569.jpg" alt="Picture of me">
-    <div id= "summary">
-      <p>I am a software engineer with a strong passion for technology and 
-        how it is used to empower people and simplify their lives. In my free time I play various instruments, workout, 
-      and spend time with friends and family. I constantly strive to learn and better myself
-       both as a developer and person. My background is in aircraft maintenance with 8 years in the
-       Air Force, as well as working in IT and the aviation industry. Check out the rest of my website
-      to find out more about me, my projects, and experience!
-      </p>
-      <span>
-        <a href="http://www.linkedin.com/in/jc-dorr" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
-        <a href="https://www.facebook.com/jcdorr3" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
-        <a href="https://github.com/jcdorr003" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
-        <a href="https://drive.google.com/file/d/1zVfkPF5oKqmGRpkZQpHG-xBrGSYVTm7V/view?usp=sharing" target="_blank"><i class="fas fa-file fa-2x"></i></a>
-        
-      </span>
-    </div>
-    </div>
-  </section>
-  <!-- End About -->
-  <!-- Projects -->
-  <section id= "projects">
-    <h1>PROJECTS</h1>
-    <div class='projects-wrapper'>
-    <div class="projects-container">
-        <!-- <div class="project-card">
+      <a href="#about" class="scroll">TAKE A LOOK</a>
+    </section>
+    <!-- End Home -->
+    <!-- About -->
+    <section id="about">
+      <h1>ABOUT</h1>
+      <div class="about-container">
+        <img src="./images/IMG_0569.jpg" alt="Picture of me" />
+        <div id="summary">
+          <p>
+            I am a software engineer with a strong passion for technology and
+            how it is used to empower people and simplify their lives. In my
+            free time I play various instruments, workout, and spend time with
+            friends and family. I constantly strive to learn and better myself
+            both as a developer and person. My background is in aircraft
+            maintenance with 8 years in the Air Force, as well as working in IT
+            and the aviation industry. Check out the rest of my website to find
+            out more about me, my projects, and experience!
+          </p>
+          <span>
+            <a href="http://www.linkedin.com/in/jc-dorr" target="_blank"
+              ><i class="fab fa-linkedin fa-2x"></i
+            ></a>
+            <a href="https://www.facebook.com/jcdorr3" target="_blank"
+              ><i class="fab fa-facebook-square fa-2x"></i
+            ></a>
+            <a href="https://github.com/jcdorr003" target="_blank"
+              ><i class="fab fa-github-square fa-2x"></i
+            ></a>
+            <a
+              href="https://drive.google.com/file/d/1FWtCGrszmETfAUB0iLXCc4VcdcqlwNbe/view?usp=sharing"
+              target="_blank"
+              ><i class="fas fa-file fa-2x"></i
+            ></a>
+          </span>
+        </div>
+      </div>
+    </section>
+    <!-- End About -->
+    <!-- Projects -->
+    <section id="projects">
+      <h1>PROJECTS</h1>
+      <div class="projects-wrapper">
+        <div class="projects-container">
+          <!-- <div class="project-card">
             <img src="./images/duck-hunt-part-2.png" alt="project">
             <div class="card-overlay">
               <span class='overlay-text-container'>
@@ -91,58 +117,86 @@
             </div>
           </div> -->
           <div class="project-card">
-              <img src="./images/ga-student-directory.png" alt="project">
-              <div class="card-overlay">
-                <span class='overlay-text-container'>
+            <img src="./images/ga-student-directory.png" alt="project" />
+            <div class="card-overlay">
+              <span class="overlay-text-container">
                 <h3>GA STUDENT DIRECTORY</h3>
-                <p>Student directory application using React.js and Express.js.</p>
-                <div class='project-link-container'>
-                  <a href="https://github.com/jcdorr003/ga-student-directory.git" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-                  <a href="http://illustrious-hole.surge.sh/" target="_blank"><i class="fas fa-link fa-2x"></i></a>
+                <p>
+                  Student directory application using React.js and Express.js.
+                </p>
+                <div class="project-link-container">
+                  <a
+                    href="https://github.com/jcdorr003/ga-student-directory.git"
+                    target="_blank"
+                    ><i class="fab fa-github fa-2x"></i
+                  ></a>
+                  <a href="http://illustrious-hole.surge.sh/" target="_blank"
+                    ><i class="fas fa-link fa-2x"></i
+                  ></a>
                 </div>
-                </span>
-              </div>
+              </span>
             </div>
-            <div class="project-card">
-                <img src="./images/brew-find.png" alt="project">
-                <div class="card-overlay">
-                  <span class='overlay-text-container'>
-                  <h3>BREW FIND</h3>
-                  <p>Brewery finder app developed with React.js and open source API.</p>
-                  <div class='project-link-container'>
-                    <a href="https://github.com/jcdorr003/project2-react.git" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-                    <a href="https://www.jcdorr.com/brew_find/" target="_blank"><i class="fas fa-link fa-2x"></i></a>
-                  </div>
-                  </span>
+          </div>
+          <div class="project-card">
+            <img src="./images/brew-find.png" alt="project" />
+            <div class="card-overlay">
+              <span class="overlay-text-container">
+                <h3>BREW FIND</h3>
+                <p>
+                  Brewery finder app developed with React.js and open source
+                  API.
+                </p>
+                <div class="project-link-container">
+                  <a
+                    href="https://github.com/jcdorr003/project2-react.git"
+                    target="_blank"
+                    ><i class="fab fa-github fa-2x"></i
+                  ></a>
+                  <a href="https://www.jcdorr.com/brew_find/" target="_blank"
+                    ><i class="fas fa-link fa-2x"></i
+                  ></a>
                 </div>
-              </div>
-              <div class="project-card">
-                  <img src="./images/weight-list-2.png" alt="project">
-                  <div class="card-overlay">
-                    <span class='overlay-text-container'>
-                    <h3>WEIGHT LIST</h3>
-                    <p>Weight lifting log application developed using React.js and Ruby on Rails.</p>
-                    <div class='project-link-container'>
-                      <a href="https://github.com/jcdorr003/workout-log-app.git" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-                      <!-- <a href=""><i class="fas fa-link fa-2x"></i></a> -->
-                    </div>
-                    </span>
-                  </div>
+              </span>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="./images/weight-list-2.png" alt="project" />
+            <div class="card-overlay">
+              <span class="overlay-text-container">
+                <h3>WEIGHT LIST</h3>
+                <p>
+                  Weight lifting log application developed using React.js and
+                  Ruby on Rails.
+                </p>
+                <div class="project-link-container">
+                  <a
+                    href="https://github.com/jcdorr003/workout-log-app.git"
+                    target="_blank"
+                    ><i class="fab fa-github fa-2x"></i
+                  ></a>
+                  <!-- <a href=""><i class="fas fa-link fa-2x"></i></a> -->
                 </div>
-                <div class="project-card">
-                    <img src="./images/quickmeals.png" alt="project">
-                    <div class="card-overlay">
-                      <span class='overlay-text-container'>
-                      <h3>QUICKMEALS</h3>
-                      <p>Front-end application using React.js.</p>
-                      <div class='project-link-container'>
-                        <a href="https://github.com/jcdorr003/quickmeals.git" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-                        <!-- <a href=""><i class="fas fa-link fa-2x"></i></a> -->
-                      </div>
-                      </span>
-                    </div>
-                  </div>
-                  <!-- <div class="project-card">
+              </span>
+            </div>
+          </div>
+          <div class="project-card">
+            <img src="./images/quickmeals.png" alt="project" />
+            <div class="card-overlay">
+              <span class="overlay-text-container">
+                <h3>QUICKMEALS</h3>
+                <p>Front-end application using React.js.</p>
+                <div class="project-link-container">
+                  <a
+                    href="https://github.com/jcdorr003/quickmeals.git"
+                    target="_blank"
+                    ><i class="fab fa-github fa-2x"></i
+                  ></a>
+                  <!-- <a href=""><i class="fas fa-link fa-2x"></i></a> -->
+                </div>
+              </span>
+            </div>
+          </div>
+          <!-- <div class="project-card">
                     <img src="" alt="project">
                     <div class="card-overlay">
                       <span class='overlay-text-container'>
@@ -155,29 +209,32 @@
                       </span>
                     </div>
                   </div> -->
-    </div>
-    </div>
-  </section>
-  <!-- End Projects -->
-  <!-- Contact -->
-  <section id ="contact">
-    <h1>CONTACT</h1>
-    <div class='form-container'>
-      <p>Have questions or want to work together?</p>
-      <form class="contact-form" action="https://formspree.io/jcdorr003@gmail.com" method="POST">
-        <input placeholder="Name" type="text" name="name" required>
-        <input placeholder="Email" type="email" name="email" required>
-        <textarea placeholder="Message" type="text" name="message"></textarea>
-        <input id='contact-button' type="submit" value="SUBMIT">
-      </form>
-    </div>
-  </section>
-  <!-- End Contact -->
-  <!-- Footer -->
-  <footer>
-    <div>
-    </div>
-  </footer>
-</body>
-<script src="js/main.js"></script>
+        </div>
+      </div>
+    </section>
+    <!-- End Projects -->
+    <!-- Contact -->
+    <section id="contact">
+      <h1>CONTACT</h1>
+      <div class="form-container">
+        <p>Have questions or want to work together?</p>
+        <form
+          class="contact-form"
+          action="https://formspree.io/jcdorr003@gmail.com"
+          method="POST"
+        >
+          <input placeholder="Name" type="text" name="name" required />
+          <input placeholder="Email" type="email" name="email" required />
+          <textarea placeholder="Message" type="text" name="message"></textarea>
+          <input id="contact-button" type="submit" value="SUBMIT" />
+        </form>
+      </div>
+    </section>
+    <!-- End Contact -->
+    <!-- Footer -->
+    <footer>
+      <div></div>
+    </footer>
+  </body>
+  <script src="js/main.js"></script>
 </html>
